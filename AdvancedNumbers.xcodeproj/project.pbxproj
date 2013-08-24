@@ -15,6 +15,8 @@
 		CD9B87AD17C8940B00D8C102 /* AdvancedNumbers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9B878F17C8940B00D8C102 /* AdvancedNumbers.framework */; };
 		CD9B87B317C8940B00D8C102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD9B87B117C8940B00D8C102 /* InfoPlist.strings */; };
 		CD9B87B617C8940B00D8C102 /* AdvancedNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9B87B517C8940B00D8C102 /* AdvancedNumbersTests.m */; };
+		CD9B87C117C8959800D8C102 /* LibraryLink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD9B87BF17C8959800D8C102 /* LibraryLink.cpp */; };
+		CD9B87C217C8959800D8C102 /* LibraryLink.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9B87C017C8959800D8C102 /* LibraryLink.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CD9B87B217C8940B00D8C102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD9B87B417C8940B00D8C102 /* AdvancedNumbersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvancedNumbersTests.h; sourceTree = "<group>"; };
 		CD9B87B517C8940B00D8C102 /* AdvancedNumbersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvancedNumbersTests.m; sourceTree = "<group>"; };
+		CD9B87BF17C8959800D8C102 /* LibraryLink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LibraryLink.cpp; sourceTree = "<group>"; };
+		CD9B87C017C8959800D8C102 /* LibraryLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryLink.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		CD9B878517C8940B00D8C102 = {
 			isa = PBXGroup;
 			children = (
+				CD9B87BF17C8959800D8C102 /* LibraryLink.cpp */,
+				CD9B87C017C8959800D8C102 /* LibraryLink.h */,
 				CD9B879817C8940B00D8C102 /* AdvancedNumbers */,
 				CD9B87AE17C8940B00D8C102 /* AdvancedNumbersTests */,
 				CD9B879117C8940B00D8C102 /* Frameworks */,
@@ -153,6 +159,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9B87C217C8959800D8C102 /* LibraryLink.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9B87A117C8940B00D8C102 /* AdvancedNumbers.m in Sources */,
+				CD9B87C117C8959800D8C102 /* LibraryLink.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
